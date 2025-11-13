@@ -28,12 +28,11 @@ public class Maexchen {
                 }
             }
         }
-        double maexchenanzahl =anzahlwürfe/maexchen;
+        double maexchenprozent =(maexchen/(1.0*anzahlwürfe))*100;
         System.out.println("++++++ Mäxchen +++++++");
         System.out.println("Punkte Endstand: "+ punkte);
         System.out.println("Anzahl Würfe: "+ anzahlwürfe);
         System.out.println("Anzahl maexchen: "+ maexchen);
-        System.out.println("Maexchen in Prozent: "+ maexchenanzahl);
-        
+        System.out.println("Maexchen in Prozent: "+ maexchenprozent);
     }
 }
